@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <title>Document</title>
 </head>
+
 <body>
     <div id="container">
         <input id="add-item-btn" type="button" value="+">
     </div>
-
     <script type="application/javascript">
-        
+
+        let itemButton = document.getElementById('add-item-btn');
+        itemButton.addEventListener('click', function () {
+            let new_div = document.createElement("div");
+            new_div.classList.add('element');
+            document.getElementById('container').appendChild(new_div);
+
+            // alrt = alert('новый div добавлен');
+            const myWindow = window.open("", "", "width=200, height=100, message='sdvsdv'");
+            setTimeout(function () { myWindow.close() }, 5000);
+            
+        });
+
+
     </script>
+
 </body>
+
 </html>
