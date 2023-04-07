@@ -1,0 +1,27 @@
+.header, .footer{
+    height: 100px;
+}
+.content-block{
+    padding: 100px 0;
+    background-image: url(img/rick_and_morty_bg.png.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 700px;
+    opacity: 0.7;
+}
+.content-text{
+    font-weight: bold;
+    font-size: 80px;
+    text-align: center;
+}
+.character-block{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.665);
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.832);
+}
