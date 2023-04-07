@@ -1,5 +1,4 @@
-.header,
-.footer {
+.header,.footer {
     height: 100px;
 }
 
@@ -24,12 +23,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: space-around;
-    
+
 }
 
 .card {
     width: 300px;
     margin: 10px;
+}
+
+.ch-card {
+    width: 500px !important;
 }
 
 a {
